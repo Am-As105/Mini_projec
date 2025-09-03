@@ -69,9 +69,31 @@ int main()
     int total = note1 + note2 + note3 + note4 + note5;
     printf("total des notes = %d \n",  total);
     printf("moyenne  notes = %d \n",  total / 5);
-    
+
     int arr[5] = { note1  , note2 , note3 , note4 , note5};
     printf("la note la plus  haute = %d \n" , sort_big(arr, 5));
     printf("la note la pllus basse = %d \n " , sort_small(arr, 5));
+
+    int moyane = total / 5;
+    if (moyane >= 90)
+    {
+        printf("Excellent \n");
+    }
+    if (  moyane >= 80 && moyane <= 89 )
+    {
+        printf("Très bien \n");
+    }
+    if ( moyane >= 70 && moyane <= 79  )
+    {
+        printf(" Bien \n");
+    }
+    if ( moyane >= 60 && moyane <= 69)
+    {
+        printf("Passable \n");
+    }
+    if ( moyane < 60)
+    {
+        printf("ECHEC\n");
+    }
 
 }
