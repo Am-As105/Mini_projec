@@ -1,13 +1,6 @@
 #include <stdio.h>
 
 
-int sort(int *arr)
-{
-    int i = 0;
-    int j = 0;
-
-    
-}
 int 	sort_small(int *tab, int size)
 {
 	int	i;
